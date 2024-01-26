@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/letter-l.png" />
+  </head>
+
+  <body class="main-bg">
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" />
+    <label for="close-menu" class="close-menu-label"></label>
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#">LOGO</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">intro</a></li>
+            <li><a href="#top3">top 3</a></li>
+            <li><a href="#grid">grid</a></li>
+            <li><a href="#gallery">gallery</a></li>
+            <li><a href="#work">work</a></li>
+            <li><a href="#prices">prices</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <section id="intro" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <br /><br /><br />
+          <h1>December❄️ Last Christmas🌲🎁 - Wham!</h1>
+          <p>
+            Wham! followed the parallel path of the most of their British pop
+            peers, celebrating colorful, candied hooks and big, effervescent
+            beats at a time most emerging U.K. groups were detached synth pop.
+            Before George Michael became a worldwide success as a solo artist,
+            he burst onto the scene as part of Wham! with his longtime pal
+            Andrew Ridgeley.
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="img/javascript.svg" alt="logo JavaScript, CSS and HTML" />
+        </div>
+      </div>
+    </section>
+
+    <section id="top3" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Top 3 songs</h2>
+        <div class="top3-song">
+          <div class="song-details">
+            <h3>3. Everything She Wants 🔮</h3>
+            <iframe
+              src="https://open.spotify.com/embed/track/5hXEcqQhEjfZdbIZLO8mf2?utm_source=generator"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <p>
+              Originally released as a double A-side with 'Last Christmas' in
+              1984, this song was also a number one hit in the States. In later
+              years, George said it was his favourite Wham! song.
+            </p>
+          </div>
+        </div>
+
+        <div class="top3-song">
+          <div class="song-details">
+            <h3>1. Last Christmas 🎁</h3>
+            <iframe
+              src="https://open.spotify.com/embed/track/2FRnf9qhLbvw8fu4IBXx78?utm_source=generator"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <p>
+              One of the most popular Christmas pop songs of all time, this
+              track had to settle for the Christmas number two spot in 1984, as
+              it was also the year Band Aid released 'Do They Know It's
+              Christmas' (which George also featured on).
+            </p>
+          </div>
+        </div>
+
+        <div class="top3-song">
+          <div class="song-details">
+            <h3>2. Wake Me Up Before You Go-Go 🕺</h3>
+            <iframe
+              src="https://open.spotify.com/embed/track/4Cl3pAiQDuEtfKKYNkKDi0?utm_source=generator"
+              height="352"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <p>
+              This song gave Wham! their first number one in both the UK and US.
+              Produced and written by George, he said that inspiration for the
+              song was a scribbled note that Andrew Ridgeley had left for his
+              parents, intended to read "wake me up before you go" but with "up"
+              accidentally written twice, so Andrew wrote "go" twice on purpose.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid" class="intro main-bg section">
+      <div class="main-content grid-content">
+        <h2>My Grid</h2>
+        <p>A short desciption.</p>
+        <br />
+        <div class="grid">
+          <article>
+            <h3>Test</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+          <article>
+            <h3>Test</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+          <article>
+            <h3>Test</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">A short description.</p>
+        <br />
+
+        <div class="grid">
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=1"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=2"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=3"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=4"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=5"
+              alt="random image from unsplash"
+            />
+          </div>
+          <div class="gallery-img">
+            <img
+              src="http://source.unsplash.com/random/360x360?r=6"
+              alt="random image from unsplash"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="main-bg section">
+      <div class="main-content">
+        <h2>Jobs</h2>
+        <br />
+        <div class="grid jobs-img">
+          <article>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
+              alt="JavaScript logo"
+            />
+            <br />
+            <h3>JavaScript</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+          <article>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+              alt="TypeScript logo"
+            />
+            <br />
+            <h3>TypeScript</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+          <article>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+              alt="React logo"
+            />
+            <br />
+            <h3>React.js</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              dolorum iste facere reprehenderit tempore, maiores, culpa ut rem
+              ipsam fuga temporibus. Cupiditate eum a rerum error corporis
+              provident ducimus eligendi!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices" class="white-bg section">
+      <div class="main-content">
+        <h2>Pricing</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, dicta
+          veritatis nam iste officiis neque aliquid et voluptas beatae voluptate
+          iure fuga atque doloremque ducimus. Animi maxime cupiditate doloremque
+          nobis?
+        </p>
+        <br />
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing table
+            </caption>
+            <thead>
+              <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>testing</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h1>December Last Christmas - Wham!</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A non
+            eligendi corporis incidunt est, aliquid reprehenderit atque cumque
+            numquam accusantium, quidem quaerat voluptate earum, magni iure
+            ratione distinctio? Eum, accusantium.
+          </p>
+        </div>
+
+        <div class="intro-img">
+          <img src="img/contact.svg" alt="logo JavaScript, CSS and HTML" />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend class="title-form">CONTACT US ☎️</legend>
+            <div class="form-group">
+              <label for="first-name">First name</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="your first name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last name</label>
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="your last name"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="yout best email"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Your message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="2"
+                placeholder="type here your message to us :)"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Send message</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-bg">
+      <h3>
+        Feito com ❤ por
+        <a target="_blank" href="https://github.com/maalcantara">maalcantara</a>
+      </h3>
+    </footer>
+    <a href="#" class="back-to-top">❯</a>
+  </body>
+</html>
